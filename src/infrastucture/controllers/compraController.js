@@ -1,8 +1,8 @@
-import CreateCompra from "../../application/use-cases/CreateCompra.js";
-import GetCompraById from "../../application/use-cases/GetCompraById.js";
-import GetCompras from "../../application/use-cases/GetCompras.js";
-import UpdateCompra from "../../application/use-cases/UpdateCompra.js";
-import DeleteCompra from "../../application/use-cases/DeleteCompra.js";
+import CreateCompra from "../../application/use-cases/compras/CreateCompra.js";
+import GetCompraById from "../../application/use-cases/compras/GetCompraById.js";
+import GetCompras from "../../application/use-cases/compras/GetCompras.js";
+import UpdateCompra from "../../application/use-cases/compras/UpdateCompra.js";
+import DeleteCompra from "../../application/use-cases/compras/DeleteCompra.js";
 
 
 import CompraRepositoryMongo from "../repositories/CompraRepositoryMongo.js";
